@@ -1,0 +1,28 @@
+SELECT AVG(energy), AVG(valence), AVG(danceability) FROM songs;
+
+1.
+    After running the above script, we get the below data from one of spotify's listner's Top 100 songs in 2018-
+        avg. energy is 0.65906
+        avg. valence is 0.484443
+        avg. danceability is 0.71646
+
+    The above figure as per Spotify's "Audio Aura" signifies that the user's song list contains
+        moderate energy
+        less positive in emotional stimulus
+        can be danced on
+
+2.
+
+    The limitation of the above calculations comes with firstly it contains a the user's sample size of only 100 songs of a year. As it won't be enough to
+    come to conclusion due to lack of including the user's full music history, data of change of music preference and inclusion of heterogenous genres of music.
+    E.g a user may play song a, which is his favorite once, song b because he just likes it more time, in the end the calculation will overwrite the emotional
+    connection and go with data dervied analytics.
+
+    Improvement,
+        Insights of personal ratings.
+        How long a particular is played and how often.
+        Similarilites of genre, music taste, time on second song with the previous song played.
+        Insights on any particular genere or artist by collecting data on songs played by the user.
+
+    Lastly,
+         Have a detailed calculation, data on differnet genre of songs played by the user.
